@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+input, select, textarea {
+  transition: border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #002FA7;
+  box-shadow: 0 0 0 2px rgba(0, 47, 167, 0.1);
+}
+
+.recharts-text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+}
+
+/* React Big Calendar Custom Styles */
+.rbc-calendar {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.rbc-header {
+  padding: 8px 4px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #64748B;
+  background-color: #F8FAFC;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.rbc-month-view {
+  border: 1px solid #E2E8F0;
+  border-radius: 4px;
+}
+
+.rbc-day-bg {
+  background-color: #FFFFFF;
+}
+
+.rbc-day-bg + .rbc-day-bg {
+  border-left: 1px solid #E2E8F0;
+}
+
+.rbc-month-row + .rbc-month-row {
+  border-top: 1px solid #E2E8F0;
+}
+
+.rbc-off-range-bg {
+  background-color: #F8FAFC;
+}
+
+.rbc-today {
+  background-color: #EFF6FF !important;
+}
+
+.rbc-date-cell {
+  padding: 4px 8px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.rbc-date-cell.rbc-now {
+  font-weight: 700;
+  color: #002FA7;
+}
+
+.rbc-event {
+  padding: 2px 6px;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+.rbc-event:focus {
+  outline: none;
+}
+
+.rbc-show-more {
+  font-size: 11px;
+  color: #002FA7;
+  font-weight: 500;
+  padding: 2px 4px;
+}
+
+.rbc-overlay {
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #E2E8F0;
+  padding: 8px;
+  max-width: 300px;
+}
+
+.rbc-overlay-header {
+  font-weight: 600;
+  padding: 4px 0 8px;
+  border-bottom: 1px solid #E2E8F0;
+  margin-bottom: 8px;
+}

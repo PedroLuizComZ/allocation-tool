@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "dashboard": "Panel",
+    "resources": "Recursos",
+    "projects": "Proyectos",
+    "allocations": "Asignaciones",
+    "analytics": "Analítica",
+    "logout": "Cerrar Sesión"
+  },
+  "auth": {
+    "signIn": "Iniciar Sesión",
+    "signOut": "Cerrar Sesión",
+    "welcome": "Bienvenido al Asignador de Recursos Empresariales",
+    "pleaseSignIn": "Por favor, inicie sesión para acceder al sistema"
+  },
+  "dashboard": {
+    "title": "Resumen del Panel",
+    "totalResources": "Recursos Totales",
+    "totalProjects": "Proyectos Totales",
+    "activeProjects": "Proyectos Activos",
+    "avgUtilization": "Utilización Promedio",
+    "resourcesByLocation": "Recursos por Ubicación",
+    "allocationByProject": "Asignación por Proyecto"
+  },
+  "resources": {
+    "title": "Gestión de Recursos",
+    "addNew": "Agregar Nuevo Recurso",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "position": "Posición",
+    "location": "Ubicación",
+    "availability": "Disponibilidad",
+    "hardSkills": "Habilidades Técnicas",
+    "softSkills": "Habilidades Blandas",
+    "languageSkills": "Habilidades Lingüísticas",
+    "technicalSkills": "Habilidades Técnicas",
+    "actions": "Acciones",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "projects": {
+    "title": "Gestión de Proyectos",
+    "addNew": "Agregar Nuevo Proyecto",
+    "name": "Nombre",
+    "description": "Descripción",
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Fin",
+    "status": "Estado",
+    "requiredSkills": "Habilidades Requeridas",
+    "planning": "Planificación",
+    "active": "Activo",
+    "completed": "Completado",
+    "onHold": "En Espera"
+  },
+  "allocations": {
+    "title": "Asignaciones de Recursos",
+    "addNew": "Agregar Nueva Asignación",
+    "resource": "Recurso",
+    "project": "Proyecto",
+    "percentage": "Asignación %",
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Fin",
+    "role": "Rol"
+  },
+  "analytics": {
+    "title": "Análisis e Informes",
+    "skillsDistribution": "Distribución de Habilidades",
+    "utilizationByResource": "Utilización por Recurso",
+    "locationDistribution": "Distribución por Ubicación"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "refresh": "Actualizar"
+  }
+}

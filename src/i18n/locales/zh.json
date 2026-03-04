@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "dashboard": "仪表板",
+    "resources": "资源",
+    "projects": "项目",
+    "allocations": "分配",
+    "analytics": "分析",
+    "logout": "登出"
+  },
+  "auth": {
+    "signIn": "登录",
+    "signOut": "登出",
+    "welcome": "欢迎使用企业资源分配器",
+    "pleaseSignIn": "请登录以访问系统"
+  },
+  "dashboard": {
+    "title": "仪表板概览",
+    "totalResources": "总资源",
+    "totalProjects": "总项目",
+    "activeProjects": "活跃项目",
+    "avgUtilization": "平均利用率",
+    "resourcesByLocation": "按地点分类的资源",
+    "allocationByProject": "按项目分配"
+  },
+  "resources": {
+    "title": "资源管理",
+    "addNew": "添加新资源",
+    "name": "姓名",
+    "email": "电子邮件",
+    "position": "职位",
+    "location": "地点",
+    "availability": "可用性",
+    "hardSkills": "硬技能",
+    "softSkills": "软技能",
+    "languageSkills": "语言技能",
+    "technicalSkills": "技术技能",
+    "actions": "操作",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "保存",
+    "cancel": "取消"
+  },
+  "projects": {
+    "title": "项目管理",
+    "addNew": "添加新项目",
+    "name": "名称",
+    "description": "描述",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "status": "状态",
+    "requiredSkills": "所需技能",
+    "planning": "计划中",
+    "active": "活跃",
+    "completed": "已完成",
+    "onHold": "暂停"
+  },
+  "allocations": {
+    "title": "资源分配",
+    "addNew": "添加新分配",
+    "resource": "资源",
+    "project": "项目",
+    "percentage": "分配 %",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "role": "角色"
+  },
+  "analytics": {
+    "title": "分析和报告",
+    "skillsDistribution": "技能分布",
+    "utilizationByResource": "按资源利用率",
+    "locationDistribution": "按地点分布"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "search": "搜索",
+    "filter": "筛选",
+    "export": "导出",
+    "refresh": "刷新"
+  }
+}

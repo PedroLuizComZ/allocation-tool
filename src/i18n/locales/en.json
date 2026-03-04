@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "resources": "Resources",
+    "projects": "Projects",
+    "allocations": "Allocations",
+    "analytics": "Analytics",
+    "logout": "Logout"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "welcome": "Welcome to Enterprise Resource Allocator",
+    "pleaseSignIn": "Please sign in to access the system"
+  },
+  "dashboard": {
+    "title": "Dashboard Overview",
+    "totalResources": "Total Resources",
+    "totalProjects": "Total Projects",
+    "activeProjects": "Active Projects",
+    "avgUtilization": "Avg Utilization",
+    "resourcesByLocation": "Resources by Location",
+    "allocationByProject": "Allocation by Project"
+  },
+  "resources": {
+    "title": "Resources Management",
+    "addNew": "Add New Resource",
+    "name": "Name",
+    "email": "Email",
+    "position": "Position",
+    "location": "Location",
+    "availability": "Availability",
+    "hardSkills": "Hard Skills",
+    "softSkills": "Soft Skills",
+    "languageSkills": "Language Skills",
+    "technicalSkills": "Technical Skills",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "projects": {
+    "title": "Projects Management",
+    "addNew": "Add New Project",
+    "name": "Name",
+    "description": "Description",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status",
+    "requiredSkills": "Required Skills",
+    "planning": "Planning",
+    "active": "Active",
+    "completed": "Completed",
+    "onHold": "On Hold"
+  },
+  "allocations": {
+    "title": "Resource Allocations",
+    "addNew": "Add New Allocation",
+    "resource": "Resource",
+    "project": "Project",
+    "percentage": "Allocation %",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "role": "Role"
+  },
+  "analytics": {
+    "title": "Analytics & Reports",
+    "skillsDistribution": "Skills Distribution",
+    "utilizationByResource": "Utilization by Resource",
+    "locationDistribution": "Location Distribution"
+  },
+  "hierarchy": {
+    "title": "Organization Hierarchy",
+    "viewHierarchy": "View Hierarchy",
+    "teamMembers": "Team Members",
+    "directReports": "Direct Reports",
+    "lineManager": "Line Manager",
+    "noManager": "No Manager",
+    "utilization": "Utilization",
+    "overallocated": "OVERALLOCATED"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "configuration": "System Configuration",
+    "userManagement": "User Management",
+    "roles": "User Roles",
+    "changeRole": "Change Role",
+    "makeAdmin": "Make Admin",
+    "makeManager": "Make Manager",
+    "makeUser": "Make User",
+    "hierarchyManagement": "Hierarchy Management",
+    "assignManager": "Assign Manager",
+    "settings": "Settings"
+  },
+  "roles": {
+    "admin": "Admin",
+    "manager": "Manager",
+    "user": "User"
+  },
+  "overallocation": {
+    "warning": "Overallocation Warning",
+    "resourceOverallocated": "This resource is overallocated",
+    "currentUtilization": "Current Utilization",
+    "overallocatedResources": "Overallocated Resources",
+    "viewDetails": "View Details"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "refresh": "Refresh"
+  }
+}
